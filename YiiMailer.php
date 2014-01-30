@@ -52,21 +52,21 @@ class YiiMailer extends PHPMailer {
 	/**
 	 * Default paths and private properties
 	 */
-	protected $viewPath='application.views.mail';
+    public $viewPath='application.views.mail';
 
-    protected $layoutPath='application.views.mail.layouts';
+    public $layoutPath='application.views.mail.layouts';
 
-    protected $baseDirPath='webroot.images.mail';
+    public $baseDirPath='webroot.images.mail';
 
-    protected $testMode=false;
+    public $testMode=false;
 
-    protected $savePath='webroot.assets.mail';
+    public $savePath='webroot.assets.mail';
 
-    protected $layout;
+    public $layout;
 
-    protected $view;
+    public $view;
 
-    protected $data;
+    public $data;
 	
 	/**
 	 * Constants
